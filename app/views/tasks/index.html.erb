@@ -7,7 +7,7 @@
 <i class="fa-regular fa-square"></i>
 <% end %>
 <%= link_to task.title, task_path(task) %>
-<%= link_to task_path(task), data: { turbo_method: :delete, turbo_confirm: "Are you sure ?"} do%>
+<%= link_to task_path(task), data: { turbo_method: :delete, turbo_confirm: "Are you sure ?"} do %>
 <i class="fa-solid fa-delete-left"></i>
 <% end %></p></br>
 <% end %>
